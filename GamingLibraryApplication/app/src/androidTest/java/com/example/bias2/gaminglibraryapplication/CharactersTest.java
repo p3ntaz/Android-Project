@@ -35,8 +35,7 @@ public class CharactersTest {
 
     public void setUp() throws InterruptedException {
         context = InstrumentationRegistry.getContext();
-        String key = System.getProperty("API_KEY");
-        wrapper = new IGDBWrapper(context, key, Version.PRO, true);
+        wrapper = new IGDBWrapper(context, "c957fd42f03e55db16b0d7ad5c74a2d5", Version.PRO, true);
 
     }
 
