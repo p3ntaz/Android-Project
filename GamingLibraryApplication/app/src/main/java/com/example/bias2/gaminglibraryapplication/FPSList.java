@@ -17,6 +17,6 @@ public class FPSList extends AppCompatActivity {
     void Setup() {
         Fragment frag = new TextFragment();
         FragmentManager fragMng = getSupportFragmentManager();
-        fragMng.beginTransaction().add(R.id.fragFrame, frag).addToBackStack(null).commit();
+        fragMng.beginTransaction().replace(R.id.textFragment, frag).addToBackStack(null).commit();
     }
 }
