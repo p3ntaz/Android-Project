@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_RTS"
+            android:title="RTS"></item>
+        <item
+            android:id="@+id/nav_FPS"
+            android:title="FPS"></item>
+        <item
+            android:id="@+id/nav_RPG"
+            android:title="RPG"></item>
+        <item
+            android:id="@+id/nav_Survival"
+            android:title="Survival"></item>
+    </group>
+</menu>
